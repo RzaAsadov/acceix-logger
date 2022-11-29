@@ -44,7 +44,7 @@ public class NLogger {
     }
     
 
-    private static final LinkedList<NLog> logs = new LinkedList<>();    
+    private static  LinkedList<NLog> logs = new LinkedList<>();    
     
     public synchronized  static void logger (int logBlock,int logType,String module,String action,String user,String message) {
         
@@ -79,7 +79,7 @@ public class NLogger {
             int l = limit / 10;
             
             for (int i=0; i < l; i++)
-                logs.removeFirst();
+                logs = new LinkedList<>(); 
         }
         
     }    
