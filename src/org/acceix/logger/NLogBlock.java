@@ -1,7 +1,7 @@
 /*
  * The MIT License
  *
- * Copyright 2022 Rza Asadov (rza dot asadov at gmail dot com).
+ * Copyright 2022 Rza Asadov (rza at asadov dot me).
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -40,6 +40,10 @@ public class NLogBlock {
     public static int SCRIPTS=9; 
     public static int VIEW=10;
     public static int ASSET=11;
+    public static int DBTRIGGER=12;
+    public static int DBVIEW=13;
+    public static int DBEVENT=14;
+    public static int DBTABLE=15;
     
     public static int UNKNOWN=100;
 
